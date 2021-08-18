@@ -1,0 +1,24 @@
+.center {
+  text-align: center;
+}
+
+.formRow {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.formRow > form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.formRow > form * {
+  margin-left: 10px;
+}
+
+.formRow > form input {
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.192);
+}
